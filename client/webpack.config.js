@@ -8,11 +8,8 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      database: './src/js/database.js',
       main: './src/js/index.js',
       install: './src/js/install.js',
-      header: './src/js/header.js',
-      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
